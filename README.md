@@ -20,7 +20,9 @@ as in etc/docker/daemon.json in this repository
 * Restart dockerd service:
   $ sudo service docker Restart
 
-## Create directory owned by the user that will be used inside docker e.g 11000 for docker user 10000
+## Create directory owned by the user 
+
+Directory will be used inside docker e.g directory created for host user 11000 will be used by docker user 1000
 
     See docker.sh script
 
